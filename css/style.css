@@ -115,6 +115,11 @@
     background-color: rgb(255, 231, 234);
     height: auto;
     width: 100%;
+    padding-bottom: 40px;
+    border-bottom: 4px solid red;
+}
+.phone-view{
+    display: none;
 }
 .or-clction{
     /* background-color: red; */
@@ -131,7 +136,7 @@
 }
 .ul{
     border-bottom: 1px solid white;
-    width: 400px;
+    width: 60%;
     margin: auto;
     margin-bottom: 10px;
 }
@@ -152,13 +157,13 @@
 }
 .ul-most-loved{
     border-bottom: 1px solid #253953;
-    width: 190px;
+    width: 30%;
     margin: auto;
 }
 .images-collection{
     padding-top: 50px;
-    padding-left: 90px;
-    padding-right: 90px;
+    padding-left: 8%;
+    padding-right: 8%;
 }
 .images-collection img{
     width: 60%;
@@ -198,7 +203,7 @@
     background-color: transparent;
     color: white;
     font-size: 16px;
-    padding: 16px 32px;
+    /* padding: 8% 10%; */
   }
 
 .colction-img{
@@ -271,6 +276,7 @@
     height: auto;
     text-align: center;
     padding-bottom: 60px;
+    
   
 }
 .ul-explore-all{
@@ -288,6 +294,7 @@
 .crsl-data{
     width: 70%;
     margin: auto;
+    /* margin-bottom: 30px; */
     /* margin-top: 90px; */
     /* background-color: red; */
 
@@ -324,4 +331,277 @@
 .crsl-data h4:hover{
     background-color: #253953;
     color: white;
+}
+.products{
+    margin-top: 30px;
+    padding-bottom: 90px;
+}
+.sec-row{
+    padding-top: 90px;
+}
+.products img{
+    width: 90%;
+    transition: 0.5s;
+}
+.products img:hover{
+    box-shadow: -1px 99px 79px -71px rgba(0,0,0,0.75);
+    margin-top: -9px;
+    transition: 0;
+      
+}
+.subscribe-div{
+    background-color: #d2d2d2;
+    height: 100px;
+    width: 100%;
+    
+}
+.subscribe-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subscrb-text{
+    background-color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    letter-spacing: 1px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 12px;
+    margin-right: 3px;
+}
+.subscribe-div input{
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 8px;
+    margin-right: 3px;
+    padding-right: 90px;
+    border: 1px solid white;
+}
+.subscribe-div input::placeholder{
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.subscribe-div i{
+    background-color: red;
+    color: white;
+    padding-top: 3.5px;
+    padding-bottom: 4px;
+    padding-left: 17px;
+    padding-right: 17px;
+    transition: .3s;
+    font-size: 25px;
+}
+.subscribe-div i:hover{
+    color: black;
+}
+.footer{
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+.footer-left{
+    /* background-color: rgb(120, 255, 2); */
+    width: 65%;
+    height: auto;
+    padding-bottom: 30px;
+}
+.footer-right{
+    width: 35%;
+    /* background-color: red; */
+    height: auto;
+    padding-bottom: 30px;
+}
+.left-first-row{
+    display: flex;
+    gap: 80px;
+    margin-top: 6%;
+    justify-content: center
+}
+.left-first-row select{
+    font-size: 10px;
+    letter-spacing: 1px;
+    padding: 6px;
+    color: red;
+    border: 1px solid red;
+}
+#phone{
+    /* font-size: 12px; */
+    border: 1px solid red;
+    padding: 6px;
+    padding-left: 7px;
+    padding-right: 7px;
+    color: red;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+.left-first-row span{
+    color: red;
+    font-size: 13px;
+}
+.email-address{
+    font-size: 13px;
+    margin-top: 8px;
+    color: red;
+}
+.footer-social-links i{
+    padding: 6px;
+    border: 1px solid red;
+    background-color: red;
+    color: white;
+    font-size: 12px;
+    border-radius: 100%;
+    transition: .5s;
+}
+.footer-social-links i:hover{
+    background-color: black;
+    border: 1px solid black;
+}
+#wtsp{
+    background-color: rgb(10, 210, 10);
+    border: 1px solid rgb(10, 210, 10);
+}
+.footer-list{
+    display: flex;
+    justify-content: center;
+}
+.divaider{
+    border-left: 1px solid black;
+    height: 170px;
+    margin-top: 50px;
+}
+.footer-list ul{
+    list-style: none;
+    margin-right: 110px;
+    margin-top: 50px;
+}
+.footer-list a{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    text-decoration: none;
+    letter-spacing: 1px;
+    color: black;
+    font-size: 10px;
+    transition: .3s;
+}
+.footer-list a:hover{
+    color: rgb(116, 116, 116);
+}
+.footer-right h6{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.footer-right input{
+    border: none;
+    border-bottom: 1px solid rgb(114, 112, 112);
+    padding-left: 10px;
+    padding-bottom: 3px;
+    padding-right: 160px;
+    margin-bottom: 30px;
+}
+.footer-right input::placeholder{
+    font-size: 13px;
+}
+.footer-right select{
+    border: none;
+    border-bottom: 1px solid rgb(114, 112, 112);
+    padding-left: 10px;
+    padding-bottom: 3px;
+    padding-right: 179px;
+    font-size: 13px;
+    color: rgb(114, 112, 112);
+}
+.last-form{
+    /* background-color: red; */
+    width: 67%;
+}
+.last-form button{
+    float: right;
+    margin-top: 30px;
+    padding: 5px 12px;
+    border: 1px solid red;
+    color: red;
+    background-color: transparent;
+    font-size: 12px;
+}
+.cpy-rgt{
+    text-align: center;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 12px;
+    color: rgb(161, 161, 161);
+    margin-bottom: 7px;
+    letter-spacing: 1px;
+}
+@media(min-width:300px) and (max-width:575.98px){
+    .first-header{
+        height: 20px;
+        /* background-color: black; */
+        padding-top: 0px;
+        margin-top: 5px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .left a,.right a{
+        text-decoration: none;
+        color: rgb(132, 132, 132);
+        font-size: 0px;
+        margin-left: 3px;
+        margin-top: 0px;
+    }
+    .klyn-logo{
+        width: 0%;
+        /* text-align: right; */
+    }
+    .or-clction h1{
+        font-size: 15px;
+        text-align: center;
+    }
+    .or-clction p{
+        font-size: 10px;
+    }
+    .banner img{
+        display: none;
+        width: 20%;
+    }
+    .banner::before{
+        content: url(../images/portrait-banner.png);
+        max-width: 100%;
+    }
+    .big-view{
+        display: none;
+    }
+    .phone-view{
+        display: inline-block;
+        letter-spacing: 2px;
+    }
+    .most-loved{
+        padding-top: 100px;
+    }
+    .most-loved h1{
+        font-size: 19px;
+    }
+    .images-collection{
+        padding-top: 14px;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+    .miracle-text{
+        font-size: 10px;
+        padding-top: 12px;
+        padding-bottom: 10px;
+    }
+    .text-under-miracle{
+      font-size: 8px;
+      padding-bottom: 10px;
+    }
+    .new-this-month{
+        padding-top: 0px;
+        margin-top: 0px;
+        padding-bottom: 0px;
+    }
+    .new-this-month h1{
+        font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+        font-size: 13px;
+        color: #253953;
+        letter-spacing: 5px;
+    }
 }
