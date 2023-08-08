@@ -88,7 +88,7 @@
     color: rgb(107, 107, 107) !important;
     cursor: pointer;
 }
-.our-brand{
+.muhurath{
     color: red !important;
     border-bottom: 2px solid red;
 }
@@ -101,268 +101,81 @@
     border-bottom: 2px solid red;
 }
 .banner{
-    /* background-image: url(../images/banner.webp); */
-    background-size: 100%;
-    background-repeat: no-repeat;
-    height: 340px;
-    margin-top: 20px;
-    position: relative;
-    text-align: center;
-    /* background-color: red; */
-}
-.banner img{
     width: 100%;
 }
-.all{
-    background-color: rgb(255, 231, 234);
-    height: auto;
-    width: 100%;
-    padding-bottom: 40px;
-    border-bottom: 4px solid red;
-}
-.phone-view{
+#muhurath-phone{
     display: none;
 }
-.or-clction{
-    /* background-color: red; */
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+.sec-nav{
+    background-color: rgb(231, 200, 142);
+    position: sticky;
+    top: 0;
 }
-.or-clction h1{
-    letter-spacing: 12px;
-    padding-bottom: 8px;
-    font-size: 48px;
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+#sec-nav-data{
+    color: rgb(109, 61, 6);
+    font-weight: 600;
 }
-.ul{
-    border-bottom: 1px solid white;
-    width: 60%;
-    margin: auto;
+#sec-nav-full{
+    margin-left: 9%;
+}
+#sec-nav-full li{
+    margin-right: 13px;
+}
+.single-line{
+    margin-top: 70px;
+    height: 80px;
+    border-left: 1px solid black;
+    margin-left: 50%;
+}
+#muhurath-heading{
+    font-family: 'Bodoni Moda', serif !important;
+    font-weight: 700;
+}
+.main-para{
+   padding-top: 17px;
+   width: 70%;
+   margin: auto;
+   text-align: center;
+}
+.main-para p{
+    font-weight: 600;
+    color: rgb(121, 121, 121);
+}
+.main-para a{
+    text-decoration: none;
+    color: black;
+    margin-top: 30px;
+    border: 1px solid black;
+    padding: 10px 20px;
+}
+.shp-btn{
+    padding-top: 30px;
+}
+.state-images{
+    text-align: center;
+    margin-top: 80px;
+}
+.state-images img{
+    margin-right: 5px;
     margin-bottom: 10px;
 }
-.or-clction h1,.or-clction p{
-    color: white;
-}
-.most-loved{
+.vedio{
     text-align: center;
-    height: auto;
-    padding-top: 40px;
-    padding-bottom: 80px;
-}
-.most-loved h1{
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-    font-size: 32px;
-    color: #253953;
-    letter-spacing: 5px;
-}
-.ul-most-loved{
-    border-bottom: 1px solid #253953;
-    width: 30%;
-    margin: auto;
-}
-.images-collection{
-    padding-top: 50px;
-    padding-left: 8%;
-    padding-right: 8%;
-}
-.images-collection img{
-    width: 60%;
-    transition: 0.5s;
-}
-.images-collection img:hover{
-    /* -webkit-filter: brightness(.5); */
-    filter: brightness(.3);
-}
-.hide-btn {
-    transition: .5s ease;
-    opacity: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    text-align: center;
-  }
-  .colction-img:hover img{
-    filter: brightness(0.2);
-  }
-  
-  .colction-img:hover .hide-btn {
-    opacity: 1;
-  }
-  .colction-img:hover .hide-btn a{
-    /* opacity: 1; */
-    color: white;
-  }
-
-  .hide-btn a{
-    text-decoration: none;
-    color: white;
-  }
-  .hide-btn {
-    background-color: transparent;
-    color: white;
-    font-size: 16px;
-    /* padding: 8% 10%; */
-  }
-
-.colction-img{
-    position: relative;
-}
-.colction-img .hide-btn{
-   color: white;
-   text-decoration: none;
-   border: 1px solid white;
-   width: 270px;
-   height: 60px;
-   padding-top: 17px;
-   opacity: 0;
-   
-}
-/* .colction-img .hide-btn{
-    opacity: 1 !important;
-  
-} */
-/* .hide-btn a:hover{
-   color: white;
-} */
-/* img:hover  .hide-btn{
-    
-    opacity: 1 !important;
-    
-} */
-.ul-miracle{
-    border-bottom: 2px solid black;
-    width: 50%;
-    margin: auto;
-    margin-bottom: 7px;
-}
-.miracle-text{
-    font-size: 19px;
-    letter-spacing: 3px;
-    padding-top: 30px;
-    padding-bottom: 10px;
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-    font-weight: 600;
-}
-.text-under-miracle{
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-    font-weight: 600;
-    letter-spacing: 1px;
-}
-.new-this-month{
-    height: auto;
-    text-align: center;
-    padding-bottom: 50px;
-}
-.new-this-month h1{
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-    font-size: 32px;
-    color: #253953;
-    letter-spacing: 5px;
-}
-.ul-new-month{
-    border-bottom: 2px solid black;
-    width: 15%;
-    margin: auto;
-    margin-bottom: 7px;
-}
-.new-this-month img{
-    border: 10px solid white;
-    margin-top: 40px;
-}
-
-.explore-all{
-    height: auto;
-    text-align: center;
-    padding-bottom: 60px;
-    
-  
-}
-.ul-explore-all{
-    width: 13%;
-    border-bottom: 1px solid #253953;
-    margin: auto;
-    
-}
-.explore-all h1{
-    color:  #253953;
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-    font-size: 32px;
-    letter-spacing: 5px;
-}
-.crsl-data{
-    width: 70%;
-    margin: auto;
-    /* margin-bottom: 30px; */
-    /* margin-top: 90px; */
-    /* background-color: red; */
-
-}
-#nav-btn{
-    border: 2px solid #253953;
-    /* padding: 20px; */
-    padding-left: 23px;
-    padding-right: 23px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    color: rgb(255, 255, 255);
-    font-size: 45px;
-    color: #253953;
-}
-.crsl-full{
-    margin-top: 90px;
-    height: auto;
-}
-.item h4{
-    border: 1px solid #253953;
-    padding-top: 16px;
-    padding-bottom: 16px;
-    font-size: 15px;
-    margin-left: 0px;
-    transition: 0.6s;
-    margin-bottom: 16px;
-    
-}
-.crsl-data a{
-    text-decoration: none;
-    color: #253953;
-}
-.crsl-data h4:hover{
-    background-color: #253953;
-    color: white;
-}
-.products{
-    margin-top: 30px;
-    padding-bottom: 90px;
-}
-.sec-row{
-    padding-top: 90px;
-}
-.products img{
-    width: 90%;
-    transition: 0.5s;
-}
-.products img:hover{
-    box-shadow: -1px 99px 79px -71px rgba(0,0,0,0.75);
-    margin-top: -9px;
-    transition: 0;
-      
+    margin-top: 60px;
 }
 .subscribe-div{
     background-color: #d2d2d2;
     height: 100px;
     width: 100%;
-    
-}
-.subscribe-div{
+    margin-top: 70px;
+    border-top: 3px solid red;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    
 }
+
 .subscrb-text{
     background-color: white;
     padding-left: 15px;
@@ -408,7 +221,6 @@
     /* width: 65%; */
     height: auto;
     padding-bottom: 30px;
-    padding-left: 5%;
 }
 .footer-right{
     /* width: 35%; */
@@ -420,7 +232,7 @@
     display: flex;
     gap: 80px;
     margin-top: 6%;
-    justify-content: center;
+    justify-content: center
 }
 .left-first-row select{
     font-size: 10px;
@@ -470,7 +282,7 @@
 }
 .divaider{
     border-left: 1px solid black;
-    height: 180px;
+    height: 170px;
     margin-top: 50px;
 }
 .footer-list ul{
@@ -516,8 +328,6 @@
 .last-form{
     /* background-color: red; */
     width: 67%;
-    padding-right: 1%;
-    /* margin-right: 10%; */
 }
 .last-form button{
     float: right;
@@ -536,13 +346,7 @@
     margin-bottom: 7px;
     letter-spacing: 1px;
 }
-
-
 @media (min-width:300px) and (max-width:575.98px){
-    #nav-togle{
-        /* font-size: 10px; */
-        padding-bottom: 8px;
-    }
     .first-header{
         height: 20px;
         /* background-color: black; */
@@ -563,70 +367,33 @@
         width: 0%;
         /* text-align: right; */
     }
-    .or-clction h1{
-        font-size: 15px;
-        text-align: center;
+    #muhurath-heading{
+        font-size: 12px;
+        padding-top: 4px;
     }
-    .or-clction p{
+    .main-para p{
+        font-size: 8px;
+        margin-bottom: 0px;
+    }
+    .shp-btn{
         font-size: 10px;
+        margin-top: 15px;
+        padding: 3px 5px;
+
     }
-    .banner img{
-        display: none;
-        width: 20%;
+    .state-images img{
+        width: 47%;
     }
-    .banner::before{
-        content: url(../images/portrait-banner.png);
-        max-width: 100%;
-    }
-    .big-view{
-        display: none;
-    }
-    .phone-view{
-        display: inline-block;
-        letter-spacing: 2px;
-    }
-    .most-loved{
-        padding-top: 100px;
-    }
-    .most-loved h1{
-        font-size: 19px;
-    }
-    .images-collection{
-        padding-top: 14px;
-        padding-left: 2%;
-        padding-right: 2%;
-    }
-    .miracle-text{
-        font-size: 10px;
-        padding-top: 12px;
-        padding-bottom: 0px;
-    }
-    .text-under-miracle{
-      font-size: 8px;
-      padding-bottom: 10px;
-    }
-    .new-this-month{
-        padding-top: 0px;
+    iframe{
+        height: 100px;
         margin-top: 0px;
-        padding-bottom: 0px;
     }
-    .new-this-month h1{
-        font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-        font-size: 13px;
-        color: #253953;
-        letter-spacing: 5px;
+    .vedio{
+
+        margin-top: 6px;
     }
-    #nav-btn{
-        border: none;
-        padding-top: 0px;
-        padding-bottom: 0px;
-        font-size: 0px;
-    }
-    .products{
-        text-align: center;
-    }
-    .products img{
-        width: 40%;
+    .subscribe-div{
+        margin-top: 10px;
     }
     .subscribe-div input{
         padding-left: 4px;
@@ -673,7 +440,8 @@
     }
     .last-form{
         margin-top: 10%;
-       margin-left: 23%;
+       margin-left: 15%;
+       text-align: center;
        /* background-color: red; */
     }
     .last-form input{
