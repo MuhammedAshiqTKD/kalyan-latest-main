@@ -49,36 +49,7 @@
     border: 1px solid rgb(57, 57, 57);
     transition: .4s;
 }
-/* #second-head{
-    background-color: white;
-    height: 80px;
-    /* position: sticky;
-    top: 0; */
-    /* background-color: red; */
-/* } */
-/* .logo{
-    width: 45%;
-    
-}
-.nav-links a{
-    text-decoration: none;
-    color: rgb(119, 119, 119);
-    margin-right: 40px;
-    font-weight: 600;
-    padding-bottom: 10px;
-}
-.nav-links a:hover{
-    color: red;
-    border-bottom: 1px solid red;
-}
-.our-brand{
-    color: red;
-    border-bottom: 1px solid red; 
-}
-.nav-links{
-    padding-top: 46px;
 
-} */ 
 .klyn-logo{
     width: 20%;
 }
@@ -88,7 +59,7 @@
     color: rgb(107, 107, 107) !important;
     cursor: pointer;
 }
-.muhurath{
+.jewllery{
     color: red !important;
     border-bottom: 2px solid red;
 }
@@ -101,81 +72,61 @@
     border-bottom: 2px solid red;
 }
 .banner{
-    width: 100%;
+    /* background-image: url(../images/diamond_banner.webp);
+    background-size: cover;
+    height: 420px; */
+    /* border-bottom: 2px solid red; */
+    padding-bottom: 20px;
 }
-#muhurath-phone{
-    display: none;
-}
-#sec-nav{
-    background-color: rgb(231, 200, 142);
-    position: sticky;
-    top: 0;
-}
-#sec-nav-data{
-    color: rgb(109, 61, 6);
-    font-weight: 600;
-}
-#sec-nav-full{
-    margin-left: 9%;
-}
-#sec-nav-full li{
-    margin-right: 13px;
-}
-.single-line{
-    margin-top: 70px;
-    height: 80px;
-    border-left: 1px solid black;
-    margin-left: 50%;
-}
-#muhurath-heading{
-    font-family: 'Bodoni Moda', serif !important;
-    font-weight: 700;
-}
-.main-para{
-   padding-top: 17px;
-   width: 70%;
-   margin: auto;
-   text-align: center;
-}
-.main-para p{
-    font-weight: 600;
-    color: rgb(121, 121, 121);
-}
-.main-para a{
+.link-under-banner a,.link-under-banner span{
+    font-size: 12px;
     text-decoration: none;
-    color: black;
+    color: rgb(123, 123, 123);
+}
+.main-heading{
+    text-align: center;
+}
+.sigle-line{
+    border-left: 2px solid black;
+    height: 100px;
+    margin-left: 50%;
     margin-top: 30px;
-    border: 1px solid black;
-    padding: 10px 20px;
 }
-.shp-btn{
-    padding-top: 30px;
+.main-heading h1{
+    font-family: 'Bodoni Moda', serif !important;
+    font-weight: 600;
 }
-.state-images{
+.main-heading p{
+    font-weight: 500;
+    color: grey;
+    margin-top: 20px;
+}
+.products{
+    margin-top: 50px;
+    border-bottom: 3px solid red;
+    padding-bottom: 20px;
+}
+.collections{
     text-align: center;
-    margin-top: 80px;
 }
-.state-images img{
-    margin-right: 5px;
-    margin-bottom: 10px;
-}
-.vedio{
-    text-align: center;
-    margin-top: 60px;
+.collections img{
+    width: 17%;
+    margin-bottom: 13px;
+    margin-right: 10px;
+    border: 1px solid rgb(172, 172, 172);
 }
 .subscribe-div{
     background-color: #d2d2d2;
     height: 100px;
     width: 100%;
-    margin-top: 70px;
-    border-top: 3px solid red;
+    
+}
+.subscribe-div{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    
 }
-
 .subscrb-text{
     background-color: white;
     padding-left: 15px;
@@ -221,6 +172,7 @@
     /* width: 65%; */
     height: auto;
     padding-bottom: 30px;
+    padding-left: 5%;
 }
 .footer-right{
     /* width: 35%; */
@@ -232,7 +184,7 @@
     display: flex;
     gap: 80px;
     margin-top: 6%;
-    justify-content: center
+    justify-content: center;
 }
 .left-first-row select{
     font-size: 10px;
@@ -282,7 +234,7 @@
 }
 .divaider{
     border-left: 1px solid black;
-    height: 170px;
+    height: 180px;
     margin-top: 50px;
 }
 .footer-list ul{
@@ -300,6 +252,12 @@
 }
 .footer-list a:hover{
     color: rgb(116, 116, 116);
+}
+.footer-right{
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    margin-right: 10%;
 }
 .footer-right h6{
     margin-top: 20px;
@@ -328,6 +286,7 @@
 .last-form{
     /* background-color: red; */
     width: 67%;
+   
 }
 .last-form button{
     float: right;
@@ -346,7 +305,8 @@
     margin-bottom: 7px;
     letter-spacing: 1px;
 }
-@media (min-width:300px) and (max-width:575.98px){
+
+@media(min-width:300px) and (max-width:575.98px){
     .first-header{
         height: 20px;
         /* background-color: black; */
@@ -367,34 +327,32 @@
         width: 0%;
         /* text-align: right; */
     }
-    #muhurath-heading{
-        font-size: 12px;
-        padding-top: 4px;
+    .link-under-banner a,.link-under-banner span{
+        font-size: 9px;
     }
-    .main-para p{
-        font-size: 8px;
-        margin-bottom: 0px;
+    .sigle-line{
+        height: 60px;
     }
-    .shp-btn{
-        font-size: 10px;
-        margin-top: 15px;
-        padding: 3px 5px;
+    .main-heading p{
+        font-size: 13px;
+        font-weight: 500;
+        color: grey;
+        margin-top: 20px;
+    }
+    .collections img{
+        width: 80%;
+        margin-bottom: 13px;
+        margin-right: 10px;
+        border: 1px solid rgb(172, 172, 172);
+    }
 
-    }
-    .state-images img{
-        width: 47%;
-    }
-    iframe{
-        height: 100px;
-        margin-top: 0px;
-    }
-    .vedio{
 
-        margin-top: 6px;
-    }
-    .subscribe-div{
-        margin-top: 10px;
-    }
+
+
+
+
+
+
     .subscribe-div input{
         padding-left: 4px;
         margin-right: 0px;
@@ -440,8 +398,7 @@
     }
     .last-form{
         margin-top: 10%;
-       margin-left: 15%;
-       text-align: center;
+       margin-left: 23%;
        /* background-color: red; */
     }
     .last-form input{
@@ -496,7 +453,7 @@
     .left a,.right a{
         text-decoration: none;
         color: rgb(132, 132, 132);
-        font-size: 0px;
+        font-size: 8px;
         margin-left: 3px;
         margin-top: 0px;
     }
@@ -504,30 +461,31 @@
         width: 0%;
         /* text-align: right; */
     }
-    #muhurath-heading{
-        font-size: 12px;
-        padding-top: 4px;
+    .link-under-banner a,.link-under-banner span{
+        font-size: 9px;
     }
-    .main-para p{
-        font-size: 8px;
-        margin-bottom: 0px;
+    .sigle-line{
+        height: 60px;
     }
-    .shp-btn{
-        font-size: 10px;
-        margin-top: 15px;
-        padding: 3px 5px;
+    .main-heading p{
+        font-size: 13px;
+        font-weight: 500;
+        color: grey;
+        margin-top: 20px;
+    }
+    .collections img{
+        width: 40%;
+        margin-bottom: 13px;
+        margin-right: 10px;
+        border: 1px solid rgb(172, 172, 172);
+    }
 
-    }
-    .state-images img{
-        width: 47%;
-    }
-    iframe{
-        height: 300px;
-        margin-top: 0px;
-    }
-    .vedio{
-        margin-top: 6px;
-    }
+
+
+
+
+
+
     .subscribe-div{
         margin-top: 10px;
     }
